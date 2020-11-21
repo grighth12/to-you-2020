@@ -1,0 +1,33 @@
+#explain-screen {
+  width: 80%;
+  margin-bottom: 30px;
+}
+.explain-screen__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.explain-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.explain-content__img {
+  background-color: whitesmoke;
+  width: 90%;
+  height: 500px;
+}
+.explain-content__text {
+  position: absolute;
+  top: 50px;
+}
+.explain-content__arrows {
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.explain-button {
+  margin-bottom: 40px;
+}

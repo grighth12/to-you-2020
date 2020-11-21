@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;500;900&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/buttons.css";
+
+/* Screens */
+@import "screens/main.css";
+@import "screens/explain.css";
+@import "screens/create.css";
+@import "screens/decoration.css";
+@import "screens/preview.css";
+html {
+  background-color: wheat;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background-color: white;
+}

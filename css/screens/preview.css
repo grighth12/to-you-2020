@@ -1,0 +1,17 @@
+#preview-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.preview-title {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+.message-box {
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
